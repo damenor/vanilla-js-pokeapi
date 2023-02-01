@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokemon API</title>
+</head>
+
+<body>
+
+  <main>
+
+    <h1 class="title">PokeApi</h1>
+
+    <div class="pokemon-search">
+      <input class="pokemon-search__input" type="text" placeholder="Search pokemon" />
+      <button class="pokemon-search__btn">Search</button>
+    </div>
+
+    <div class="pokemon-spinner"></div>
+
+    <div class="pokemon">
+      <h2 class="pokemon__name"></h2>
+      <img class="pokemon__img">
+      <button class="pokemon__previous">&lt;</button>
+      <button class="pokemon__next">&gt;</button>
+    </div>
+
+    <div class="pokemon-error">
+      <h2>Oops!!</h2>
+      <p>
+        It seems that we did not find that pokemon, try again to look for another
+      </p>
+    </div>
+
+  </main>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+
+</html>
